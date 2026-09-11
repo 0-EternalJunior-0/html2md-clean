@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+output/
+/data/
+test/data/webmainbench/
+.env
+.hypothesis/
+.emergent/
+memory/
+test_reports/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+site/

@@ -1,0 +1,11 @@
+pydantic
+pydantic-settings==2.14.1
+BeautifulSoup4
+lxml
+selectolax
+requests
+trafilatura
+ftfy
+courlan
+htmldate
+nh3

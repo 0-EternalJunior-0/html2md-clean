@@ -1,0 +1,57 @@
+site_name: html2md-clean
+site_description: Чистий конвертер HTML → Markdown з видаленням шуму для web-scraping та LLM.
+site_url: https://demoprogrammer.gitlab.io/html2md-clean/
+repo_name: demoprogrammer/html2md-clean
+repo_url: https://gitlab.com/demoprogrammer/html2md-clean
+edit_uri: -/edit/main/docs/
+
+theme:
+  name: material
+  language: uk
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Темна тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Світла тема
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+nav:
+  - Головна: index.md
+  - Встановлення: installation.md
+  - Швидкий старт: quickstart.md
+  - CLI: cli.md
+  - Опції: options.md
+  - API: api.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search

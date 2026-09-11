@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pytest.ini
+include ruff.toml
+include mkdocs.yml
+recursive-include docs *.md
+recursive-exclude test *
+global-exclude __pycache__ *.py[cod]
